@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Design3"
+    android:background="#f6f6f6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:hapticFeedbackEnabled="true"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ECE9E9"
+            android:focusable="auto"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:padding="50px"
+            android:text="Discovery"
+            android:textColor="#000000"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270px"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+            <ImageView
+
+                android:layout_width="159dp"
+                android:layout_height="76dp"
+
+                android:layout_marginBottom="0dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                app:srcCompat="@drawable/images" />
+
+            <TextView
+                android:id="@+id/bars"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Bars and Hotels"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/place1"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="42 Place"
+                android:textColor="#717171"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+            <ImageView
+
+                android:layout_width="158dp"
+                android:layout_height="82dp"
+
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/download" />
+
+            <TextView
+                android:id="@+id/dining"
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Fine Dining"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/place2"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="15 Places"
+                android:textColor="#717171"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="805px"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:layout_width="159dp"
+                android:layout_height="76dp"
+
+                android:layout_marginBottom="0dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                app:srcCompat="@drawable/vector_illustration_building_restaurant_cafe_flat_icon_79178541" />
+
+            <TextView
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Cafes"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="28 Place"
+                android:textColor="#717171"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:layout_width="158dp"
+                android:layout_height="82dp"
+
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/route" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Nearby"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="34 Places"
+                android:textColor="#717171"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="1350px"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:layout_width="159dp"
+                android:layout_height="76dp"
+                android:layout_marginBottom="0dp"
+                android:foregroundGravity="center"
+                android:gravity="center"
+                app:srcCompat="@drawable/fastfoods" />
+
+            <TextView
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Fast Foods"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="29 Place"
+                android:textColor="#717171"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:padding="10dp">
+
+
+            <ImageView
+                android:layout_width="158dp"
+                android:layout_height="82dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/pizza" />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="Featured Foods"
+                android:textColor="#000000"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/place6"
+                android:layout_width="162dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:focusable="auto"
+                android:fontFamily="serif"
+                android:gravity="center"
+                android:paddingTop="25dp"
+                android:text="21 Places"
+                android:textColor="#717171"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

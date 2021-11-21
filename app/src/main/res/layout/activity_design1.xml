@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Design1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log into you account"
+            android:textColor="@color/white"
+            android:layout_marginTop="70dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="100dp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/username"
+            android:hint="username"
+            android:background="#30ffffff"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_margin="1dp"
+            android:padding="20dp"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="20dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="password"
+            android:background="#30ffffff"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:layout_margin="1dp"
+            android:padding="20dp"
+
+            android:drawableLeft="@drawable/ic_baseline_info_24"
+            android:drawablePadding="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:paddingLeft="120dp"
+            android:paddingRight="120dp"
+            android:textColor="#45433F"
+            android:text="Log In" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp"
+            android:text="Or sign up with social account"
+            android:textColor="@color/white" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:layout_width="147dp"
+            android:layout_height="52dp"
+            android:background="#E1C12323"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="10dp"
+
+            app:srcCompat="@drawable/goplus" />
+
+        <ImageView
+            android:layout_width="147dp"
+            android:layout_height="52dp"
+            android:background="#3F51B5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/fb" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+
